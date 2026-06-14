@@ -1,0 +1,15 @@
+.monthlyContainer {
+	display: flex;
+	flex-direction: column;
+
+	.buttonContainer {
+		display: flex;
+		margin-top: 30px;
+		justify-content: center;
+
+		button {
+			margin-left: 20px;
+			padding: 10px;
+		}
+	}
+}

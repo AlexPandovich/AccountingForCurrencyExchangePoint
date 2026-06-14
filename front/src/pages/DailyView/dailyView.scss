@@ -1,0 +1,38 @@
+@import "../../styles/variables.scss";
+
+.dailyView {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+	.menu {
+	  width: 15%;
+	  height: 100%;
+	  border-right: 2px solid $soft-bg;
+	  background-color: $main-bg;
+  
+	  .calendar {
+		padding: 10px;
+		height: auto;
+		width: auto;
+	  }
+	}
+	
+	.dailyGrid {
+		width: 75%;
+	  	margin: 20px;
+		display: flex;
+		flex-direction: column;
+	  	.buttons {
+			display: flex;
+			background-color:inherit;
+			justify-content: center;
+			margin-top: 20px;
+			button {
+				margin: 20px;
+				padding: 10px;
+			}
+	  	}
+	}
+  }

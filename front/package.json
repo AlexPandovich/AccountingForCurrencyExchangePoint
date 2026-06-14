@@ -1,0 +1,78 @@
+{
+  "name": "accounting",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "homepage": "./",
+  "description": "Accounting project for currency exchange",
+  "author": "Panda",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@inovua/reactdatagrid-community": "^5.10.2",
+    "@mui/material": "^5.14.6",
+    "@mui/x-date-pickers": "^6.12.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bignumber.js": "^4.0.4",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.6.0",
+    "react": "^18.2.0",
+    "react-calendar": "^4.6.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.65.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start2": "electron-forge start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.1",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.5.1",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "electron": "^26.1.0",
+    "typescript": "^5.1.6",
+    "@electron-forge/maker-deb": "^6.4.1",
+    "@electron-forge/maker-rpm": "^6.4.1",
+    "@electron-forge/maker-squirrel": "^6.4.1",
+    "@electron-forge/maker-zip": "^6.4.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.1"
+  },
+  "overrides": {
+    "typescript": "^5.1.6"
+  }
+}

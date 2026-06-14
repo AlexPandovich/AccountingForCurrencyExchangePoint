@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+
+.react-calendar {
+	border-radius: 10px;
+	background-color: white;
+}  
+
+.react-calendar .highlight  {
+	border: 2px solid green;
+	border-radius: 5px;
+}
+
+.react-calendar__navigation button {
+	min-width: 44px;
+	font-size: 16px;
+	margin-top: 8px;
+}

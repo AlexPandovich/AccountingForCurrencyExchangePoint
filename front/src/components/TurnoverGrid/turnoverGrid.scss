@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+
+.InovuaReactDataGrid__header-group__title {
+	text-align: center;
+}
+.InovuaReactDataGrid__cell {
+	
+	text-align: right;
+}
+.displayData {
+	background-color: white;
+	padding: 10px;
+	font-weight: bold;
+	color: $dark-color;
+}
